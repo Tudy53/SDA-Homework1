@@ -1,0 +1,24 @@
+//Tudosie Maria-Andreea
+//grupa 315CB
+
+
+                                        First homework 1 DSA - HashTable
+
+
+        Resolving the homework is based on inserting a word in a hash table (if we access the insert
+command) and printing, depending on the command, information from table hash(using print_function).
+        Insert_function devides the line (the command given by the user) in the words needed and then
+inserts them into the hash table using 'insertWordTH' function. It checks the word's first letter gives
+the word a position in a specific list (for instance, if a word starts with 'b', which is the second letter
+of the alphabet, we will insert the word in v[2] list) and, calling Ins_Word, we do the placement.
+        We place the word in a 'cell', the structure containing as info the word and its number of characters.
+Then, this cell in inserted in a list which becomes info (is InfoWord type) for an InfoNumberLetters sructure
+(alocInfoNumberLetters). This structure is a cell for v[2] list (keeping the example given above).
+        'InsInfoWord'assures that the InfoWord cell is placed properly in the InfoNumberLetters's info. The
+InfoWord cells should be inserted according to specific criteria: descending by the number of appearances. In
+case of identical number of appearances, we insert the cell in an ascending way, taking into account
+lexicographically criteria.
+
+//EVERYTHING WORKS ON THE LOCAL MACHINE, BUT NOT ON VMCHECKER
+
+ 
